@@ -2,6 +2,7 @@ import Header from './Components/Header';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReferandEarn from './Pages/ReferandEarn';
+import FriendsReferred from './Pages/FriendsReferred';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
 				}}>
 				<Routes>
 					<Route path='/' element={<ReferandEarn />} />
+					<Route path='/friendsreferred' element={<FriendsReferred />} />
+
 				
 		
 				</Routes>
