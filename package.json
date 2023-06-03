@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "link-common": "node_modules/.bin/symlink-dir ../common src/common",
     "postinstall": "npm run link-common",
-    "build": "react-scripts build",
+    "build": "npm run build",
     "test": "react-scripts test",
     "type": "modules",
     "eject": "react-scripts eject"
